@@ -10,7 +10,7 @@ export default function bootstrap() {
   //     document.dispatchEvent(
   //       new CustomEvent('notify', {
   //         detail: {
-  //           type: result ? 'info' : 'error',
+  //           level: result ? 'info' : 'error',
   //           message: i18next.t('text.you.are.now.in', {
   //             state: {
   //               text: i18next.t(offline ? 'text.offline' : 'text.online')
